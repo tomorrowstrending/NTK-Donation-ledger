@@ -333,7 +333,7 @@ const DIRECT_API_BASE = 'https://donate.naamtamilar.org/api/proxy//Public/Donati
 // After deploying cloudflare_proxy_worker.js, paste your worker URL here,
 // e.g. 'https://ntk-donation-proxy.yoursubdomain.workers.dev'
 // Leave blank to require visitors to enter a proxy manually via the UI.
-const HOSTED_PROXY = '';
+const HOSTED_PROXY = 'ntkdonationledger.tomorrowstrending03.workers.dev';
 
 let API_BASE = HOSTED_PROXY || DIRECT_API_BASE;
 document.getElementById('apiBaseFooter').textContent = API_BASE;
